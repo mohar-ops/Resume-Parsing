@@ -10,7 +10,7 @@ Below are the code files that we wil be using for described functionalities:
  The purpose of this is to give feedback to the students, based on two situations; first one is: if the resume is longer than 2 pages, feedback can be given to make it shorter; second one is: if among the resume sections an important section is missed (Eg. Education or Skills section), the students can be notified in the feedback
 
 2. Structure Measurement(.ipynb): To check whether the sections are bulleted since from research, a bulleted resume is preferred compared to a one with lots of paragraphs. 
-                          To classify the links as professional or unprofessional, valid or invalid and checking the validility of email addresses and email ids. 
+                          To classify the links as professional or unprofessional, valid or invalid and checking the validity of email addresses and email ids. 
                           In case of unprofessional or invalid link and email ids, students can get a feedback to include necessary changes.
               
 3. Content Measurement(.ipynb): To arrange the sections and its contents as a dictionary key-value pair. A sample JD.docx is used for cosine similarity comparison of each skill section with the given JD and the match % is shown to the student. 
