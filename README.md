@@ -13,5 +13,6 @@ Below are the code files that we wil be using for described functionalities:
                           To classify the links as professional or unprofessional, valid or invalid and checking the validility of email addresses and email ids. 
                           In case of unprofessional or invalid link and email ids, students can get a feedback to include necessary changes.
               
-3. Content Measurement(.ipynb) ( in proress ): To arrange the sections and its contents as a dictionary key-value pair. A sample JD.docx is used for cosine similarity comparison of each skill section with the given JD and the match % is shown to the user. 
-Currently grammatical mistake detection and correction with the dictionary content is what I am working on. 
+3. Content Measurement(.ipynb): To arrange the sections and its contents as a dictionary key-value pair. A sample JD.docx is used for cosine similarity comparison of each skill section with the given JD and the match % is shown to the student. 
+Grammatical mistake as well as formatting error detection and correction along with corrected text will be displayed, section-wise. Extra spaces are also corrected. For a section needing no corrections a null list is returned. 
+Finally, Job roles suited for the candidate are displayed according to the skillset (based on static nlp based rules for 4 broad job roles). 
